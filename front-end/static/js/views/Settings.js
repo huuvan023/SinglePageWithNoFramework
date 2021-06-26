@@ -1,8 +1,8 @@
 import AbtractView from './AbtractView.js';
 
 export default class extends AbtractView {
-    constructor(){
-        super();
+    constructor(params){
+        super(params);
         this.setTitle("Settings");
     }
 

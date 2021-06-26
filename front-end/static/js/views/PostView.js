@@ -1,18 +1,19 @@
-import AbtractView from "./AbtractView.js";
+import AbtractView from './AbtractView.js';
 
 export default class extends AbtractView {
     constructor(params){
         super(params);
-        this.setTitle("Dashboard");
-    };
+        this.setTitle("Posts View");
+    }
 
     async getHtml() {
         //Can be fetch data from server here
         return `
-            <h1>Hello single page</h1>
+            <h1>Hello Post page</h1>
             <p>Im Van</p>
+            <p>Post view: HERE</p>
             <p>
-                <a href="/posts" data-link>View posts</a>
+                <a href="/" data-link>Dashboard</a>
             </p>
         `;
     };

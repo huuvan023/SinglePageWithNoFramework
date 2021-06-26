@@ -1,8 +1,8 @@
 import AbtractView from './AbtractView.js';
 
 export default class extends AbtractView {
-    constructor(){
-        super();
+    constructor(params){
+        super(params);
         this.setTitle("Posts");
     }
 
@@ -12,7 +12,7 @@ export default class extends AbtractView {
             <h1>Hello Post page</h1>
             <p>Im Van</p>
             <p>
-                <a href="/" data-link>Dashboard</a>
+                <a href="/posts/post" data-link>Go to post view</a>
             </p>
         `;
     };
