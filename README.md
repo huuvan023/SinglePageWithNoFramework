@@ -1,4 +1,4 @@
-## Simple single page with no framework in used
+## Simple single page with no framework is used
 
 ## Run project: 
 Run: npm install 
